@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e873d39b.css",
+    "main.js": "/static/js/main.b620981f.js",
+    "static/media/store1.webp": "/static/media/store1.75a2bb09f220be0b3a4c.webp",
+    "static/media/Pulse.jpg": "/static/media/Pulse.9cd0a260b0fccf893936.jpg",
+    "static/media/oil.jpg": "/static/media/oil.f0fafbf988dadfe84fc8.jpg",
+    "static/media/sugar.png": "/static/media/sugar.099300841428ab993f7f.png",
+    "static/media/salt.jpg": "/static/media/salt.776056b794415224af85.jpg",
+    "static/media/rice1.jpg": "/static/media/rice1.7542034e6e659c98990b.jpg",
+    "index.html": "/index.html",
+    "main.e873d39b.css.map": "/static/css/main.e873d39b.css.map",
+    "main.b620981f.js.map": "/static/js/main.b620981f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e873d39b.css",
+    "static/js/main.b620981f.js"
+  ]
+}

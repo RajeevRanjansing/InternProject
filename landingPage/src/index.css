@@ -1,0 +1,199 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+/* ----------------General Store------------- */
+.navbar{
+  background-color: lightseagreen;
+  color:white;
+  height:10vh;
+  font-size: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar h1{
+  font-family: sans-serif;
+}
+
+/* ---------------tagList------------ */
+
+.tagList{
+  display: flex;
+  justify-content: right;
+  height:6vh;
+}
+
+.tag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3vw;
+  /* border:2px solid black; */
+}
+
+.tag ul{
+  display: flex;
+  gap:2vw;
+}
+
+.tag ul li{
+  list-style: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-bottom: 2px  solid black;
+}
+
+.tag ul li:hover{
+  color:darkred
+}
+
+
+/* -----------------Image-------------- */
+
+.heroImage{
+  height:calc(100vh - 0vh);
+  background-image: url("store1.webp");
+  background-size: cover;
+}
+
+.heroImage h1{
+  text-align: center;
+  background-color:orangered;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.contact{
+  display: none;
+  background-color: aqua;
+  position: absolute;
+  border-radius:5px ;
+  padding-left: 5px;
+  padding-top: 5px;
+  
+}
+
+.contact ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact ul li{
+  font-size: 18px;
+  font-weight: 400;
+  color:black
+}
+
+.tag ul li:hover .contact{
+  display: block;
+}
+
+.offer{
+  display: none;
+  border-radius:5px;
+  
+  margin-top: 7px;
+  position: absolute;
+  height:20vh;
+}
+
+.offer ul{
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(160, 182, 173);
+}
+
+.offer ul li{
+  color:white;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  font-style:normal;
+  line-height: 35px;
+}
+
+.tag ul li:hover .offer{
+  display: block;
+}
+
+
+/* ----------ProductSection---------- */
+
+.Product{
+  margin-top: 10px;
+  height:100vh;
+  /* border:1px solid black; */
+}
+
+
+.RiceItem{
+  display: flex;
+  flex-wrap: nowrap;
+  /* border:1px solid black; */
+  height:45vh;
+  
+}
+
+.Rice{
+  border:1px solid black;
+  width:15vw;
+  font-size: 35px;
+}
+
+.RiceList{
+  border:1px solid black;
+  width:15vw;
+  padding:3px;
+  cursor:pointer;
+}
+
+.RiceList h2{
+  font-weight: 300;
+  cursor: pointer;
+}
+
+
+.image1{
+  height:35vh;
+  background-image: url("rice1.jpg");
+  background-size: cover;
+}
+
+.image2{
+  height:35vh;
+  background-image: url("Pulse.jpg");
+  background-size: cover;
+}
+
+.image3{
+  height:35vh;
+  background-image: url("sugar.png");
+  background-size: cover;
+}
+
+.image4{
+  height:35vh;
+  background-image: url("salt.jpg");
+  background-size: cover;
+}
+
+.image5{
+  height:35vh;
+  background-image: url("oil.jpg");
+  background-size: cover;
+}
+
+.arrow{
+  cursor: pointer;
+  height:calc(45vh - 12px);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
