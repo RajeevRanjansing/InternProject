@@ -1,0 +1,121 @@
+*{
+  padding:0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* color:white; */
+}
+
+.heading{
+  background-color: red;
+  height:10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading h1{
+  color:white;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.image{
+  height:90vh;
+  background-image:url("header.jpg");
+  background-size: cover;
+  /* border:2px solid black; */
+}
+
+.imageText{
+  /* border:2px solid black; */
+  height:22vh;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.Text1{
+  height:100%;
+  width:25%;
+  /* border:2px solid black; */
+  font-size: 30px;
+  padding-left: 40px;
+  font-family: sans-serif;
+}
+
+
+.Text2{
+  height:100%;
+  width:30%;
+  /* border:2px solid black; */
+  font-size: 30px;
+  padding-right: 40px;
+  font-family: sans-serif;
+}
+
+.history{
+  /* border:2px solid black; */
+  height:100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1{
+  border:1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:33%;
+}
+
+.imageSec{
+  margin-top: 11px;
+  background-image: url("image1.jpg");
+  background-size: cover;
+  height:80vh;
+  width:90%;
+}
+
+.box1 h1, .box2 h1, .box3 h1{
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.box1 h2{
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.box2, .box3{
+  border:1px solid black; 
+  width:33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Paragraph{
+  height:87vh;
+  width:90%;
+  /* border:2px solid black;  */
+  text-wrap: wrap;
+  padding-left: 3px;
+  margin-top: 10px; 
+}
+
+.Paragraph h2{
+  font-weight: 400;
+}
+
+.Paragraph h2 span{
+  font: 400;
+  font-size: larger;
+}
+
+.box3{
+  border:1px solid black;
+  width:33%;
+}
